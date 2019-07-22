@@ -1,32 +1,32 @@
 import React, { Component } from 'react';
 import { FaSearch } from 'react-icons/fa';
-import Input from './Input';
 
 class SearchBar extends Component {
+  constructor(props) {
+    super(props);
 
-    constructor(props) {
-        super(props);
+    this.state = { quote: '' };
+  }
 
-        this.state = { term: ''};
-    }
+  onInputChange(quote) {
+    const { onSearchQuoteChange } = this.props;
+    this.setState({ quote });
+    onSearchQuoteChange(quote);
+  }
 
-    onInputChange(term) {
-        this.setState({term});
-        this.props.onSearchTermChange(term);
-    }
-    
-    render() {
-        return (
-            <div className="search-quote">
-                <FaSearch />
-                <input 
-                    value={this.state.term}
-                    onChange={event => this.onInputChange(event.target.value)}
-                    placeholder="Search...."
-                />
-            </div>   
-        );
-    }
+  render() {
+    const { quote } = this.state;
+    return (
+      <div className="search-quote">
+        <FaSearch />
+        <input
+          value={quote}
+          onChange={event => this.onInputChange(event.target.value)}
+          placeholder="Search...."
+        />
+      </div>
+    );
+  }
 }
 
 export default SearchBar;
