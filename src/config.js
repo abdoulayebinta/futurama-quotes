@@ -1,3 +1,3 @@
 const config = {
-    "apiUrl": "https://futuramaapi.herokuapp.com/api"
+  apiUrl: 'https://futuramaapi.herokuapp.com/api',
 };
