@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<QuotesList /> Should not break if a quote is passed 1`] = `
+<div>
+  <div>
+    <ul
+      className="col-md-4 float-md-right list-group"
+    />
+  </div>
+  <div>
+    <nav>
+      <ul
+        className="pagination"
+      />
+    </nav>
+  </div>
+</div>
+`;
+
+exports[`<QuotesList /> Should render correctly 1`] = `
+<div>
+  <div>
+    <ul
+      className="col-md-4 float-md-right list-group"
+    />
+  </div>
+  <div>
+    <nav>
+      <ul
+        className="pagination"
+      />
+    </nav>
+  </div>
+</div>
+`;

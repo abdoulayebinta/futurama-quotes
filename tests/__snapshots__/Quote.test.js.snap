@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Quote /> Should break if no quote passed 1`] = `
+<li
+  className="list-group-item"
+  onClick={[Function]}
+>
+  <div
+    className="media"
+  >
+    <img
+      alt="Fry"
+      className="mr-3 mini-quote-img"
+      src="Fry.png"
+    />
+    <div
+      className="media-body"
+    >
+      <h5
+        className="mt-0"
+      >
+        Fry
+      </h5>
+      <p>
+        I haven't had time o
+        ...
+      </p>
+    </div>
+  </div>
+</li>
+`;
+
+exports[`<Quote /> Should correctly rendered quote 1`] = `
+<li
+  className="list-group-item"
+  onClick={[Function]}
+>
+  <div
+    className="media"
+  >
+    <img
+      alt="Fry"
+      className="mr-3 mini-quote-img"
+      src="Fry.png"
+    />
+    <div
+      className="media-body"
+    >
+      <h5
+        className="mt-0"
+      >
+        Fry
+      </h5>
+      <p>
+        I haven't had time o
+        ...
+      </p>
+    </div>
+  </div>
+</li>
+`;
+
+exports[`<Quote /> Should not break if no quote passed 1`] = `
+<li
+  className="list-group-item"
+  onClick={[Function]}
+>
+  <div
+    className="media"
+  >
+    <img
+      alt="Fry"
+      className="mr-3 mini-quote-img"
+      src="Fry.png"
+    />
+    <div
+      className="media-body"
+    >
+      <h5
+        className="mt-0"
+      >
+        Fry
+      </h5>
+      <p>
+        I haven't had time o
+        ...
+      </p>
+    </div>
+  </div>
+</li>
+`;
+
+exports[`<Quote /> Should render selected quote 1`] = `
+<li
+  className="list-group-item"
+  onClick={[Function]}
+>
+  <div
+    className="media"
+  >
+    <img
+      alt="Fry"
+      className="mr-3 mini-quote-img"
+      src="Fry.png"
+    />
+    <div
+      className="media-body"
+    >
+      <h5
+        className="mt-0"
+      >
+        Fry
+      </h5>
+      <p>
+        I haven't had time o
+        ...
+      </p>
+    </div>
+  </div>
+</li>
+`;

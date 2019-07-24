@@ -1,0 +1,6 @@
+{ 
+    "testRegex": "((\\.|/*.)(test))\\.js?$",
+    "modulePathIgnorePatterns": ["node_modules", "dist"],
+    "verbose": true
+}
+
