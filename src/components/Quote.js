@@ -9,14 +9,13 @@ const Quote = ({ quote, onQuoteSelect }) => {
         <img className="mr-3 mini-quote-img" src={imageUrl} alt={quote.character} />
         <div className="media-body">
           <h5 className="mt-0">{quote.character}</h5>
-          <p>
-            {quote.quote.substring(0, 20)}
-...
-          </p>
+          <p>{quote.quote.substring(0, 20)}...</p>
         </div>
       </div>
     </li>
   );
 };
+
+
 
 export default Quote;
