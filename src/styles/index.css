@@ -1,21 +1,28 @@
-.search-quote {
-    margin: 20px;
-    text-align: center;
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    background-image: url('../images/futurama.jpg');
+    height: 200px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
-.search-quote input {
-    width: 75%;
+.quote-detail {
+    margin-bottom: 5px;
 }
-
 
 .quote-detail .details {
     margin-top: 10px;
-    padding: 10px;
+    padding: 20px;
     border: 1px solid #ddd;
-    border-radius: 4px;
+    border-radius: 2px;
 }
 
-.list-group-item {
+.list-group-item {  
     cursor: pointer;
 }
 
@@ -24,9 +31,8 @@
 }
 
 .mini-quote-img {
-    width: 64px;
-    height: 64px;
-/* border-radius: 50%; */
+    width: 60px;
+    height: 60px;
 }
 
 .quote-img {
