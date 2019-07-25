@@ -1,0 +1,90 @@
+nav {
+    border-bottom: 4px solid gold;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: white;
+  }
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 16px 32px;
+}
+
+nav a:hover {
+    background: #C71000FF;
+    color: gold;
+}
+
+#page-header {
+    margin: auto;
+    padding-top: 64px;
+}
+
+.search-quote {
+    margin: 10px 10px 5px 30px;
+    text-align: left;
+}
+
+.search-quote input {
+    border-radius: 2%;
+    height: 40px;
+    padding: 5px;
+}
+
+input[type="search"] {
+    border: 1px solid #E18728;
+    border-width: 0 0 7px;
+    background-color: #fff;
+    font: 16px "Open Sans", sans-serif;
+    padding: 0.125em 0.225em; 
+    width: 90%;
+    float: left;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+}  
+
+input[type="search"]:focus {
+    color: #E18728;
+    border-color: #E18728;
+    outline: none;
+}
+
+.select-dropdown {
+    width: 300px;
+    height: 50px;
+    padding: 5px;
+    margin: 10px;
+    color: #E18728;
+    background: #E18728;
+    border: none;
+    font: 16px "Open Sans", sans-serif;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .5);
+    -webkit-appearance: button;
+    outline: none;
+}
+
+.quote-list {
+    margin-top: 5px;
+}
+
+.spinner {
+    font-size: 26px;
+    text-align: center;
+    color:  #E18728;
+}
+
