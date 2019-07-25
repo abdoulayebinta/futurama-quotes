@@ -18,9 +18,7 @@ const AboutPage = () => (
 
     <p>
 You can find the code source on Github:
-      <a href="http://">Github Repo</a>
-      {' '}
-
+      <a href="https://github.com/abdoulayebinta/futurama-quotes"> Github Repo </a>
     </p>
   </div>
 );
