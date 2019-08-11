@@ -8,6 +8,12 @@ Futurama API.
 - The user should be able to select his favourite character
 - The user can search quotes from their favourite character
 
+
+## Breaking the UI Into A Component Hierarchy
+![UI Breakdown](./src/images/components-structure.png)
+
+
+
 ## Acceptance Criteria
 - You should use react or angular
 - You should include at least one test
